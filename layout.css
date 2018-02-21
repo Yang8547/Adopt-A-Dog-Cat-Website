@@ -1,0 +1,85 @@
+html,body {
+   margin:0;
+   padding:0;
+   height:100%;
+   background-image:url("background.jpg")
+ 
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+	margin:0;
+	
+}
+#header {
+	background-color:white;
+	background-image:url("h.jpg");	
+	background-repeat:x;
+	padding:10px;
+	text-align:center;	
+	height:280px;
+	
+}
+
+#sidebar{ 
+   float:left;
+   width:250px;
+   height:100%;
+   
+}
+#content {
+	
+   padding-bottom:60px;   
+   position:relative;
+   margin-left:250px;
+   color:#261a0d;
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   text-align:center;
+	
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%; 
+   height:50px;   
+   background-color:#cc9966;
+  
+}
+
+h1.header{  margin-left:40%;
+			color: #804000; margin-top:2px;
+			font-family:"Comic Sans MS", cursive, sans-serif; 
+			width:200px;
+			border-radius: 50px;
+			border:8px dotted #804000; 
+			
+			
+}
+img.header{float:center;}
+td img{width:200px; height:200px; border-radius:50%; border:5px solid #1a3300}
+ul{list-style-image:url("list.png"); margin-left:8px;line-height:30px}
+li a{text-decoration:none; color: #0040ff; font-family:"Comic Sans MS", cursive, sans-serif;}
+li a:hover{color:#ff4000;}
+a:hover{color:red; text-decoration:underline}
+td p{text-align:center ;font-size:12px}
+td{padding:20px}
+p.borrow{text-align:center; color:#1a3300; font-size:14px}
+a.borrow{color:#1a3300;  font-size:14px}
+table.borrow{margin-left:30%;}
+table.pic{margin:auto;}
+
+
+.dog{color:#4d9900 ;border:2px solid #4d9900}
+.cat{color:#bf4080 ;border:2px solid #bf4080}
+legend{font-weight:bold; font-size:20px}
+fieldset.dog{background-image:url("dog.png"); background-repeat:no-repeat; background-position:right}
+fieldset.cat{background-image:url("cat.png"); background-repeat:no-repeat; background-position:right}
+fieldset.registerPet{color:#009900; border:2px solid #009900 ;background-image:url("give.png");
+					 background-repeat:no-repeat; background-position: bottom right}
+fieldset{text-align:left;}
+.Breed,.age,.gender{color:#009900}
+
+
+th img{float:left;width :150px;height:150px;border-radius:30%; border:1px solid #1a3300}
+table.list{}
